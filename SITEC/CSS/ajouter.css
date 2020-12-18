@@ -1,0 +1,19 @@
+#container
+{
+    overflow: hidden;
+}
+
+#container div
+{
+    float: left;
+    width: 32%;
+    margin-right: 1%;
+    text-align: center;
+}
+
+p
+{
+    margin-top: 5%;
+    text-align: center;
+}
+

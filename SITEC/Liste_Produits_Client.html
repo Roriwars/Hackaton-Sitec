@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/css/bootstrap.css" rel="stylesheet"/>
+    <link href="CSS/gestion.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="favicon/SITEC.ico" type="image/x-icon">
+    <title>Liste Produits</title>
+</head>
+<body>
+ 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <img src="img/SITEC.PNG" alt="" width="30" height="24" class="d-inline-block align-top">
+    <a class="navbar-brand" href="SITEC.html">SITEC</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Liste_Clients.html">Liste Clients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Recherche.html">Rechercher Failles</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+
+<div id="tab_client" class="container-fluid">
+    <table class="table table-bordered text-centered table-responsive" >
+        <caption>Infos Client</caption>
+        <thead>
+            <tr>
+              <th scope="col">N° Client</th>
+              <th scope="col">Nom</th>
+              <th scope="col">Prenom</th>
+              <th scope="col">Adresse E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Diaw</td>
+              <td>Maguette</td>
+              <td>@none</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id="tab_produit" class="container-fluid">
+    <table class="table table-bordered text-centered table-responsive" >
+        <caption>Produits Client</caption>
+        <thead>
+            <tr>
+                <th scope="col">N° Produit</th>
+                <th scope="col">Vendeur</th>
+                <th scope="col">Produit</th>
+                <th scope="col">Version</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Microsoft</td>
+                <td>Windows Vista</td>
+                <td>Bloatware 2.9.12</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Autres</td>
+                <td>PHP</td>
+                <td>7.13</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<form method="post" action="#">
+    <p id="Options">
+        <input type="submit" class="btn btn-primary" value="Rechercher Failles">
+        <a class="btn btn-primary" href="Ajouter_produit.html" role="button">Ajouter Un Produit</a>
+    </p>
+</form>

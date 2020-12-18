@@ -1,0 +1,21 @@
+#text1,#text2
+{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.photo
+{
+    text-align: center;
+}
+
+h2,h3
+{
+    text-decoration:underline;
+}
+
+h2
+{
+    color: red;
+}

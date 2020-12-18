@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/css/bootstrap.css" rel="stylesheet"/>
+    <link href="CSS/ajouter.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="favicon/SITEC.ico" type="image/x-icon">
+    <title>Ajouter un Produit</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <img src="img/SITEC.PNG" alt="" width="30" height="24" class="d-inline-block align-top">
+    <a class="navbar-brand" href="SITEC.html">SITEC</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Liste_Clients.html">Liste Clients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Recherche.html">Rechercher Failles</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+
+<form method="post" action="#">
+  <div class="container-fluid" id="container">
+    <div class="mb-3" id="list1">
+      <label for="Vendeur" class="form-label">Vendeur</label>
+      <input class="form-control" list="Vendeurs" id="Vendeur" placeholder="Type to search..." required>
+      <datalist id="Vendeurs">
+        <option value="Microsoft">
+        <option value="Autres">
+        <option value="Apple">
+      </datalist>
+    </div>
+    <div class="mb-3" id="list2">
+      <label for="Produit" class="form-label">Produit</label>
+      <input class="form-control" list="Produits" id="Produit" placeholder="Type to search..." required>
+      <datalist id="Produits">
+        <option value="Windows 10">
+        <option value="Linux">
+        <option value="PHP">
+      </datalist>
+    </div>
+    <div class="mb-3" id="list3">
+      <label for="Version" class="form-label">Version</label>
+      <input class="form-control" list="Versions" id="Version" placeholder="Type to search..." required>
+      <datalist id="Versions">
+        <option value="1.0">
+        <option value="7.1.12">
+        <option value="4.2">
+      </datalist>
+    </div>
+    <p>
+      <input type="submit" class="btn btn-primary" value="Ajouter">
+      <a class="btn btn-danger" href="Liste_Produits_Client.html" role="button">Annuler</a>
+    </p>
+  </div>
+</form>
+
+</body>
+</html>

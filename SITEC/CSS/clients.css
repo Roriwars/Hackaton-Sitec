@@ -1,0 +1,18 @@
+#tab_client
+{
+    width: 70%;
+    margin: auto;
+}
+
+caption
+{
+    caption-side: top;
+    text-align: center;
+    font-size: large;
+    color: red;
+}
+
+#Options
+{
+    text-align: center;
+}
